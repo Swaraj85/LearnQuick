@@ -10,6 +10,7 @@ namespace ConsoleBootstrapper
     {
         static void Main(string[] args)
         {
+
             Console.WriteLine("Get started here !!");
             Console.ReadLine();
         }
