@@ -13,6 +13,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{8945AF82
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Application.AsyncLibrary.Tests", "Tests\Application.AsyncLibrary.Tests\Application.AsyncLibrary.Tests.csproj", "{C4F5194E-D3CE-4E61-8D22-7D6C94C439E3}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Application.Concurrent.Tests", "Tests\Application.Concurrent.Tests\Application.Concurrent.Tests.csproj", "{46B7CA5C-E29F-4520-9EF0-47CB247F5F58}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -35,11 +37,16 @@ Global
 		{C4F5194E-D3CE-4E61-8D22-7D6C94C439E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C4F5194E-D3CE-4E61-8D22-7D6C94C439E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C4F5194E-D3CE-4E61-8D22-7D6C94C439E3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{46B7CA5C-E29F-4520-9EF0-47CB247F5F58}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{46B7CA5C-E29F-4520-9EF0-47CB247F5F58}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{46B7CA5C-E29F-4520-9EF0-47CB247F5F58}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{46B7CA5C-E29F-4520-9EF0-47CB247F5F58}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{C4F5194E-D3CE-4E61-8D22-7D6C94C439E3} = {8945AF82-0C8C-49DB-B79C-245306C8176D}
+		{46B7CA5C-E29F-4520-9EF0-47CB247F5F58} = {8945AF82-0C8C-49DB-B79C-245306C8176D}
 	EndGlobalSection
 EndGlobal
